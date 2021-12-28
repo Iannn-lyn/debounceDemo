@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import { SearchBox } from './components/AutoCompletion';
+import { PhotoAlbumContainer } from './containers/photoAlbum';
 
 function App() {
   return (
-    <div>
-      <SearchBox />
+    <div className='max-w-2xl mx-auto bg-gray-500 rounded-xl shadow-md md:max-w-2xl text-center min-h-screen my-10'>
+      <h1 className='text-zinc-100 text-xl pb-2'>Get a random color block album</h1>
+      <PhotoAlbumContainer />
     </div>
   );
 }
