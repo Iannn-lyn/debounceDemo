@@ -1,5 +1,6 @@
 import React from 'react';
 import { PhotoAlbumContainer } from './containers/photoAlbum';
+import './index.css'; // Import Tailwind css module at top level
 
 function App() {
   return (
